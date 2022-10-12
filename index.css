@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+  
+}
+
+h3 {
+   font-size: 1.5rem; 
+   margin: 1.2em 1em .3em 1em;
+   /* color: white; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 700px;
+}
+
+.background {
+    background: #E5E5E5;
+    height: 100vh;
+}
+
+.Home{
+letter-spacing: .2em
+    
+}
+
+.Guest{
+  letter-spacing: .2em
+     
+}
+
+
+.flex{
+    display: flex;
+    gap: 1.4em;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.board {
+    background: #080001;
+    padding: 1em 0em ;
+    color: #F94F6D;
+    text-align: center;
+    margin-right: 5em;
+    border-radius: 5px;
+    margin: 0;
+    
+}
+
+.board h2{
+    font-size: 5rem;
+    margin: 0;
+    font-family: 'cursed_timer_ulilregular';
+}
+
+
+button{
+    padding: 0.3rem;
+    color: black;
+    margin-top: .5em;
+    border: 1px solid #9AABD8;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-family: 'cursed_timer_ulilregular';
+}
